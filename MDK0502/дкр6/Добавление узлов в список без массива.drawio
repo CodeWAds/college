@@ -1,0 +1,85 @@
+<mxfile host="app.diagrams.net" modified="2024-03-09T08:55:05.312Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="Hlh_n5V9yrVU6yT3Z8fy" version="24.0.2" type="device">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1048" dy="673" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="chbsQpoeu-h_u_FQyJUZ-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="chbsQpoeu-h_u_FQyJUZ-0" target="chbsQpoeu-h_u_FQyJUZ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="chbsQpoeu-h_u_FQyJUZ-0" value="AddToTailWithoutArray&lt;div&gt;Начало&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="20" y="40" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="chbsQpoeu-h_u_FQyJUZ-1" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="chbsQpoeu-h_u_FQyJUZ-0" target="chbsQpoeu-h_u_FQyJUZ-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="260" as="sourcePoint" />
+            <mxPoint x="290" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="chbsQpoeu-h_u_FQyJUZ-2" value="Значение переменных Head и Data&lt;div&gt;передано из&amp;nbsp;CreateListWithoutArray&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="290" y="30" width="25" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="chbsQpoeu-h_u_FQyJUZ-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="chbsQpoeu-h_u_FQyJUZ-3" target="chbsQpoeu-h_u_FQyJUZ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="chbsQpoeu-h_u_FQyJUZ-3" value="New(NewNode)&lt;div&gt;NewNode^.Data = Data&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="20" y="140" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="chbsQpoeu-h_u_FQyJUZ-5" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="chbsQpoeu-h_u_FQyJUZ-3" target="chbsQpoeu-h_u_FQyJUZ-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="260" as="sourcePoint" />
+            <mxPoint x="290" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="chbsQpoeu-h_u_FQyJUZ-6" value="Процедура New создает новую динамическую&lt;div&gt;переменную и устанавливает на неё указатель&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="290" y="130" width="15" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="chbsQpoeu-h_u_FQyJUZ-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="chbsQpoeu-h_u_FQyJUZ-7" target="chbsQpoeu-h_u_FQyJUZ-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="chbsQpoeu-h_u_FQyJUZ-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="chbsQpoeu-h_u_FQyJUZ-7" target="chbsQpoeu-h_u_FQyJUZ-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="chbsQpoeu-h_u_FQyJUZ-7" value="Head = nil" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="20" y="240" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="chbsQpoeu-h_u_FQyJUZ-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="chbsQpoeu-h_u_FQyJUZ-9" target="chbsQpoeu-h_u_FQyJUZ-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="chbsQpoeu-h_u_FQyJUZ-9" value="&lt;div&gt;Head = NewNode&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;Head^.Prev = Head&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;Head^.Next = Head&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="20" y="330" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="chbsQpoeu-h_u_FQyJUZ-12" value="Да" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="70" y="300" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="chbsQpoeu-h_u_FQyJUZ-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="chbsQpoeu-h_u_FQyJUZ-13" target="chbsQpoeu-h_u_FQyJUZ-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="chbsQpoeu-h_u_FQyJUZ-13" value="&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Temp = Head^.Prev&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; Temp^.Next = NewNode&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="290" y="285" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="chbsQpoeu-h_u_FQyJUZ-15" value="Нет" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="230" y="240" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="chbsQpoeu-h_u_FQyJUZ-16" value="AddToTailWithoutArray&lt;div&gt;Конец&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="20" y="460" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="chbsQpoeu-h_u_FQyJUZ-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="chbsQpoeu-h_u_FQyJUZ-19" target="chbsQpoeu-h_u_FQyJUZ-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="440" />
+              <mxPoint x="130" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="chbsQpoeu-h_u_FQyJUZ-19" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; NewNode^.Prev = Temp&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; NewNode^.Next = Head&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; Head^.Prev = NewNode&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="290" y="370" width="220" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

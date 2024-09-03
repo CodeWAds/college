@@ -1,0 +1,61 @@
+object Form1: TForm1
+  Left = 377
+  Height = 549
+  Top = 163
+  Width = 613
+  Caption = 'Form1'
+  ClientHeight = 549
+  ClientWidth = 613
+  DesignTimePPI = 144
+  OnCreate = FormCreate
+  LCLVersion = '3.0.0.3'
+  object Memo1: TMemo
+    Left = 35
+    Height = 359
+    Top = 17
+    Width = 525
+    TabOrder = 0
+    OnChange = Memo1Change
+  end
+  object Label1: TLabel
+    Left = 68
+    Height = 25
+    Top = 429
+    Width = 50
+    Caption = 'Число'
+    OnClick = Label1Click
+  end
+  object Label2: TLabel
+    Left = 68
+    Height = 25
+    Top = 472
+    Width = 65
+    Caption = 'Степень'
+    OnClick = Label2Click
+  end
+  object Edit1: TEdit
+    Left = 237
+    Height = 33
+    Top = 429
+    Width = 120
+    TabOrder = 1
+    OnChange = Edit1Change
+  end
+  object Edit2: TEdit
+    Left = 237
+    Height = 33
+    Top = 472
+    Width = 120
+    TabOrder = 2
+    OnChange = Edit2Change
+  end
+  object Button1: TButton
+    Left = 446
+    Height = 48
+    Top = 496
+    Width = 129
+    Caption = 'Клосе'
+    TabOrder = 3
+    OnClick = Button1Click
+  end
+end

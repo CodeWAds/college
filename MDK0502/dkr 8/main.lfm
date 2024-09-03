@@ -1,0 +1,184 @@
+object Form1: TForm1
+  Left = 387
+  Height = 703
+  Top = 99
+  Width = 1117
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = 'Калькулятор простых и сложных процентов'
+  ClientHeight = 703
+  ClientWidth = 1117
+  DesignTimePPI = 144
+  LCLVersion = '3.0.0.3'
+  object ComboBoxChoiceOption: TComboBox
+    Left = 56
+    Height = 43
+    Top = 72
+    Width = 416
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -28
+    Font.Name = 'MS Reference Sans Serif'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ItemHeight = 35
+    Items.Strings = (
+      'Простые'
+      'Сложные'
+    )
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 0
+    Text = 'Выберите вид процентов'
+    OnChange = ComboBoxChoiceOptionChange
+  end
+  object ButtonCount: TButton
+    Left = 56
+    Height = 104
+    Top = 536
+    Width = 416
+    Caption = 'Считать'
+    Color = clCream
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -28
+    Font.Name = 'MS Reference Sans Serif'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 1
+    OnClick = ButtonCountClick
+  end
+  object LabelChoiceOption: TLabel
+    Left = 32
+    Height = 35
+    Top = 24
+    Width = 502
+    Caption = 'Шаг 1. Выберите вид процентов'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -28
+    Font.Name = 'MS Reference Sans Serif'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object LabelQuantityDays: TLabel
+    Left = 16
+    Height = 35
+    Top = 144
+    Width = 515
+    Caption = 'Шаг 2. Укажите количество дней'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -28
+    Font.Name = 'MS Reference Sans Serif'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object EditQuantityDays: TEdit
+    Left = 34
+    Height = 43
+    Top = 199
+    Width = 458
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -28
+    Font.Name = 'MS Reference Sans Serif'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 2
+    OnChange = EditQuantityDaysChange
+  end
+  object LabelPercent: TLabel
+    Left = 49
+    Height = 35
+    Top = 256
+    Width = 423
+    Caption = 'Шаг 3. Укажите % годовых'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -28
+    Font.Name = 'MS Reference Sans Serif'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object EditPercent: TEdit
+    Left = 34
+    Height = 43
+    Top = 311
+    Width = 458
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -28
+    Font.Name = 'MS Reference Sans Serif'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 3
+    OnChange = EditPercentChange
+  end
+  object LabelStartValue: TLabel
+    Left = 8
+    Height = 35
+    Top = 376
+    Width = 528
+    Caption = 'Шаг 4. Укажите начальную сумму'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -28
+    Font.Name = 'MS Reference Sans Serif'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object EditStartValue: TEdit
+    Left = 34
+    Height = 43
+    Top = 423
+    Width = 458
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -28
+    Font.Name = 'MS Reference Sans Serif'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 4
+    OnChange = EditStartValueChange
+  end
+  object LabelStartValue1: TLabel
+    Left = 8
+    Height = 35
+    Top = 488
+    Width = 533
+    Caption = 'Шаг 5. Нажмите кнопку "Считать"'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -28
+    Font.Name = 'MS Reference Sans Serif'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object MemoResult: TMemo
+    Left = 608
+    Height = 589
+    Top = 79
+    Width = 487
+    ReadOnly = True
+    TabOrder = 5
+  end
+  object LabelResult: TLabel
+    Left = 608
+    Height = 35
+    Top = 24
+    Width = 167
+    Caption = 'Результат:'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -28
+    Font.Name = 'MS Reference Sans Serif'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+end

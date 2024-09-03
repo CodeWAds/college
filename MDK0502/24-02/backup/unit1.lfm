@@ -1,0 +1,66 @@
+object Form1: TForm1
+  Left = 440
+  Height = 400
+  Top = 270
+  Width = 700
+  Caption = 'Form1'
+  ClientHeight = 400
+  ClientWidth = 700
+  DesignTimePPI = 144
+  OnClose = FormClose
+  OnCreate = FormCreate
+  LCLVersion = '3.0.0.3'
+  object Panel1: TPanel
+    Left = 0
+    Height = 27
+    Top = 0
+    Width = 700
+    Align = alTop
+    ClientHeight = 27
+    ClientWidth = 700
+    TabOrder = 0
+    object SpeedButton1: TSpeedButton
+      Left = 0
+      Height = 33
+      Top = 0
+      Width = 150
+      Caption = 'Добавить'
+      OnClick = SpeedButton1Click
+    end
+    object SpeedButton2: TSpeedButton
+      Left = 152
+      Height = 33
+      Top = 0
+      Width = 150
+      Caption = 'Редактировать'
+      OnClick = SpeedButton2Click
+    end
+    object SpeedButton3: TSpeedButton
+      Left = 304
+      Height = 33
+      Top = 0
+      Width = 150
+      Caption = 'Удалить'
+    end
+    object SpeedButton4: TSpeedButton
+      Left = 456
+      Height = 33
+      Top = 0
+      Width = 150
+      Caption = 'Сортировать'
+    end
+  end
+  object StringGrid1: TStringGrid
+    Left = 0
+    Height = 373
+    Top = 27
+    Width = 700
+    Align = alClient
+    ColCount = 3
+    FixedCols = 0
+    RowCount = 1
+    TabOrder = 1
+    OnDblClick = SpeedButton2Click
+    OnGetEditMask = StringGrid1GetEditMask
+  end
+end

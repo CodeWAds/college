@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net" modified="2024-05-07T14:51:41.430Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="GJ7U0W__6_Sl12-GM_58" version="24.3.1" type="device">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="786" dy="505" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="dC2yXMcny22kKXPA0BRF-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="dC2yXMcny22kKXPA0BRF-0" target="dC2yXMcny22kKXPA0BRF-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dC2yXMcny22kKXPA0BRF-0" value="CalculationDifficult&lt;div&gt;Начало&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="140" y="70" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="dC2yXMcny22kKXPA0BRF-26" value="CalculationDifficult&lt;div&gt;Конец&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="140" y="310" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="dC2yXMcny22kKXPA0BRF-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="dC2yXMcny22kKXPA0BRF-27" target="dC2yXMcny22kKXPA0BRF-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dC2yXMcny22kKXPA0BRF-27" value="endSum = startSum * power((1 + (precent/100)/365),Days)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="140" y="190" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="dC2yXMcny22kKXPA0BRF-30" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="dC2yXMcny22kKXPA0BRF-0" target="dC2yXMcny22kKXPA0BRF-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="110" as="sourcePoint" />
+            <mxPoint x="430" y="105" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dC2yXMcny22kKXPA0BRF-31" value="переменные startSum, precent,&lt;div&gt;Days наследуются из ButtonCountClick&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="430" y="67.5" width="25" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="dC2yXMcny22kKXPA0BRF-32" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="dC2yXMcny22kKXPA0BRF-27" target="dC2yXMcny22kKXPA0BRF-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="210" as="sourcePoint" />
+            <mxPoint x="430" y="225" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dC2yXMcny22kKXPA0BRF-33" value="power() - функция,&amp;nbsp;&lt;div&gt;выполняющая возведение в степень, где&lt;/div&gt;&lt;div&gt;первый параметр - возводимое число,&amp;nbsp;&lt;/div&gt;&lt;div&gt;второй - показатель степени&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="430" y="187.5" width="15" height="75" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
